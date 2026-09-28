@@ -1,0 +1,174 @@
+settings:
+  check-interval-ticks: 20
+  effect-duration-seconds: 10
+  show-particles: false
+  show-icon: true
+  ambient-effects: true
+  max-effects-per-armor: 1
+  currency: "PLAYER_POINTS"
+
+lore:
+  format:
+    - "&7Эффект: &#FF8600%effect% %level%"
+
+effects:
+  SPEED:
+    display-name: "&#FFB000Скорость"
+    potion-type: "SPEED"
+    max-level: 3
+    applicable-slots:
+      - HELMET
+      - CHESTPLATE
+      - LEGGINGS
+      - BOOTS
+    levels:
+      1:
+        price: 1000
+      2:
+        price: 2500
+      3:
+        price: 5000
+  INCREASE_DAMAGE:
+    display-name: "&#FF6700Сила"
+    potion-type: "INCREASE_DAMAGE"
+    max-level: 2
+    applicable-slots:
+      - CHESTPLATE
+    levels:
+      1:
+        price: 2000
+      2:
+        price: 5000
+  DAMAGE_RESISTANCE:
+    display-name: "&#FF8600Сопротивление"
+    potion-type: "DAMAGE_RESISTANCE"
+    max-level: 2
+    applicable-slots:
+      - HELMET
+      - CHESTPLATE
+      - LEGGINGS
+      - BOOTS
+    levels:
+      1:
+        price: 1500
+      2:
+        price: 3500
+  REGENERATION:
+    display-name: "&#FF9100Регенерация"
+    potion-type: "REGENERATION"
+    max-level: 2
+    applicable-slots:
+      - CHESTPLATE
+      - HELMET
+    levels:
+      1:
+        price: 2500
+      2:
+        price: 6000
+  FIRE_RESISTANCE:
+    display-name: "&#FFA600Огнестойкость"
+    potion-type: "FIRE_RESISTANCE"
+    max-level: 1
+    applicable-slots:
+      - HELMET
+      - CHESTPLATE
+      - LEGGINGS
+      - BOOTS
+    levels:
+      1:
+        price: 1500
+  FAST_DIGGING:
+    display-name: "&#FFB000Спешка"
+    potion-type: "FAST_DIGGING"
+    max-level: 2
+    applicable-slots:
+      - HELMET
+      - CHESTPLATE
+      - LEGGINGS
+      - BOOTS
+    levels:
+      1:
+        price: 1200
+      2:
+        price: 3000
+  NIGHT_VISION:
+    display-name: "&#FF9B00Ночное зрение"
+    potion-type: "NIGHT_VISION"
+    max-level: 1
+    applicable-slots:
+      - HELMET
+    levels:
+      1:
+        price: 800
+  JUMP:
+    display-name: "&#FF8600Прыгучесть"
+    potion-type: "JUMP"
+    max-level: 2
+    applicable-slots:
+      - BOOTS
+    levels:
+      1:
+        price: 1000
+      2:
+        price: 2000
+  WATER_BREATHING:
+    display-name: "&#FF7C00Подводное дыхание"
+    potion-type: "WATER_BREATHING"
+    max-level: 1
+    applicable-slots:
+      - HELMET
+    levels:
+      1:
+        price: 800
+  DOLPHINS_GRACE:
+    display-name: "&#FF7100Грация дельфина"
+    potion-type: "DOLPHINS_GRACE"
+    max-level: 1
+    applicable-slots:
+      - BOOTS
+      - LEGGINGS
+    levels:
+      1:
+        price: 1500
+  CONDUIT_POWER:
+    display-name: "&#FF6700Сила источника"
+    potion-type: "CONDUIT_POWER"
+    max-level: 1
+    applicable-slots:
+      - HELMET
+    levels:
+      1:
+        price: 2000
+  ABSORPTION:
+    display-name: "&#FFB000Поглощение"
+    potion-type: "ABSORPTION"
+    max-level: 2
+    applicable-slots:
+      - CHESTPLATE
+      - HELMET
+    levels:
+      1:
+        price: 2500
+      2:
+        price: 5000
+  GLOWING:
+    display-name: "&#FFFF00Свечение"
+    potion-type: "GLOWING"
+    max-level: 1
+    applicable-slots:
+      - HELMET
+      - CHESTPLATE
+      - LEGGINGS
+      - BOOTS
+    levels:
+      1:
+        price: 500
+  SLOW_FALLING:
+    display-name: "&#FF8C00Плавное падение"
+    potion-type: "SLOW_FALLING"
+    max-level: 1
+    applicable-slots:
+      - BOOTS
+    levels:
+      1:
+        price: 1200

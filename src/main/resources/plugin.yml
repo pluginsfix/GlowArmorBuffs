@@ -1,0 +1,32 @@
+name: GlowArmorBuffs
+version: '${project.version}'
+main: pluginsfix.glowarmorbuffs.GlowArmorBuffs
+api-version: '1.20'
+author: pluginsfix
+softdepend:
+  - PlaceholderAPI
+  - PlayerPoints
+commands:
+  glowarmorbuffs:
+    description: Main command for GlowArmorBuffs
+    permission: glowarmorbuffs.apply
+    aliases:
+      - gab
+      - armorbuffs
+      - whitearmorbuffs
+  brewing:
+    description: Open armor buffs brewing menu
+    permission: glowarmorbuffs.menu
+permissions:
+  glowarmorbuffs.apply:
+    description: Allows applying buffs to armor
+    default: op
+  glowarmorbuffs.remove:
+    description: Allows removing buffs from armor
+    default: op
+  glowarmorbuffs.menu:
+    description: Allows opening buffs menu
+    default: true
+  glowarmorbuffs.admin:
+    description: Allows administrative commands and reload
+    default: op

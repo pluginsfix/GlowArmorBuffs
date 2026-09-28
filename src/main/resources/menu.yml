@@ -1,0 +1,314 @@
+title: "§x§F§F§6§7§0§0§lЭ§x§F§F§7§9§0§0§lФ§x§F§F§8§C§0§0§lФ§x§F§F§9§E§0§0§lЕ§x§F§F§B§0§0§0§lК§x§F§F§B§0§0§0§lТ§x§F§F§B§0§0§0§lЫ &8| &fКузница зелий"
+size: 54
+
+items:
+  filler-gray:
+    material: "GRAY_STAINED_GLASS_PANE"
+    name: " "
+    slots:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 37
+      - 38
+      - 42
+      - 43
+      - 44
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+
+  filler-orange:
+    material: "ORANGE_STAINED_GLASS_PANE"
+    name: " "
+    slots:
+      - 0
+      - 8
+      - 39
+      - 41
+
+  armor-preview:
+    material: "ANVIL"
+    name: "&#FF8600Элемент брони в руке"
+    slots:
+      - 4
+    action: "PREVIEW_ARMOR"
+    lore:
+      - "&7Возьмите нужный элемент брони в"
+      - "&7основную руку перед открытием меню."
+      - ""
+      - "&fТекущий предмет: &#FF8600%item_name%"
+      - "&fАктивные эффекты: &#FF8600%item_effects%"
+
+  player-info:
+    material: "PLAYER_HEAD"
+    name: "&#FF8600Ваш профиль"
+    slots:
+      - 40
+    action: "PLAYER_INFO"
+    lore:
+      - "&7Информация о вашем балансе:"
+      - ""
+      - "&fИгрок: &#FF8600%player_name%"
+      - "&fБаланс рубинов: &#FF8600%playerpoints_points% ⛁"
+      - ""
+      - "&7Прокачивайте эффекты на броне,"
+      - "&7используя заработанную валюту."
+
+  remove-buffs:
+    material: "GRINDSTONE"
+    name: "&c[!] &#FF6700Снять все эффекты"
+    slots:
+      - 49
+    action: "REMOVE_BUFFS"
+    lore:
+      - "&7Нажмите, чтобы полностью очистить"
+      - "&7все эффекты зелий с брони в руке."
+      - ""
+      - "&e▶ Нажмите для очистки"
+
+  close:
+    material: "BARRIER"
+    name: "&cЗакрыть меню"
+    slots:
+      - 45
+    action: "CLOSE_MENU"
+    lore:
+      - "&7Нажмите, чтобы закрыть кузницу."
+
+  effect-speed:
+    material: "SUGAR"
+    name: "&#FFB000Скорость"
+    slots:
+      - 19
+    effect: "SPEED"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Увеличивает скорость бега и"
+      - "&7передвижения владельца."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем, Нагрудник, Штаны, Ботинки"
+      - ""
+      - "%status_lore%"
+
+  effect-strength:
+    material: "BLAZE_POWDER"
+    name: "&#FF6700Сила"
+    slots:
+      - 20
+    effect: "INCREASE_DAMAGE"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Увеличивает наносимый урон"
+      - "&7в ближнем бою."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Нагрудник"
+      - ""
+      - "%status_lore%"
+
+  effect-resistance:
+    material: "SHIELD"
+    name: "&#FF8600Сопротивление"
+    slots:
+      - 21
+    effect: "DAMAGE_RESISTANCE"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Снижает весь входящий урон"
+      - "&7по персонажу."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем, Нагрудник, Штаны, Ботинки"
+      - ""
+      - "%status_lore%"
+
+  effect-regeneration:
+    material: "GHAST_TEAR"
+    name: "&#FF9100Регенерация"
+    slots:
+      - 22
+    effect: "REGENERATION"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Ускоряет восстановление"
+      - "&7здоровья со временем."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Нагрудник, Шлем"
+      - ""
+      - "%status_lore%"
+
+  effect-fire-resistance:
+    material: "MAGMA_CREAM"
+    name: "&#FFA600Огнестойкость"
+    slots:
+      - 23
+    effect: "FIRE_RESISTANCE"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Даёт полный иммунитет к огню,"
+      - "&7лаве и магме."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем, Нагрудник, Штаны, Ботинки"
+      - ""
+      - "%status_lore%"
+
+  effect-haste:
+    material: "GOLDEN_PICKAXE"
+    name: "&#FFB000Спешка"
+    slots:
+      - 24
+    effect: "FAST_DIGGING"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Увеличивает скорость добычи"
+      - "&7блоков и атаки оружием."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем, Нагрудник, Штаны, Ботинки"
+      - ""
+      - "%status_lore%"
+
+  effect-night-vision:
+    material: "GOLDEN_CARROT"
+    name: "&#FF9B00Ночное зрение"
+    slots:
+      - 25
+    effect: "NIGHT_VISION"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Позволяет видеть в абсолютной"
+      - "&7темноте и под водой."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем"
+      - ""
+      - "%status_lore%"
+
+  effect-jump:
+    material: "RABBIT_FOOT"
+    name: "&#FF8600Прыгучесть"
+    slots:
+      - 28
+    effect: "JUMP"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Увеличивает высоту прыжка"
+      - "&7и снижает урон от падения."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Ботинки"
+      - ""
+      - "%status_lore%"
+
+  effect-water-breathing:
+    material: "PUFFERFISH"
+    name: "&#FF7C00Подводное дыхание"
+    slots:
+      - 29
+    effect: "WATER_BREATHING"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Предотвращает утопление"
+      - "&7под водой."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем"
+      - ""
+      - "%status_lore%"
+
+  effect-dolphins-grace:
+    material: "HEART_OF_THE_SEA"
+    name: "&#FF7100Грация дельфина"
+    slots:
+      - 30
+    effect: "DOLPHINS_GRACE"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Значительно увеличивает"
+      - "&7скорость плавания в воде."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Ботинки, Штаны"
+      - ""
+      - "%status_lore%"
+
+  effect-conduit-power:
+    material: "PRISMARINE_SHARD"
+    name: "&#FF6700Сила источника"
+    slots:
+      - 31
+    effect: "CONDUIT_POWER"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Даёт подводное зрение, скорость"
+      - "&7добычи и дыхание под водой."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем"
+      - ""
+      - "%status_lore%"
+
+  effect-absorption:
+    material: "GOLDEN_APPLE"
+    name: "&#FFB000Поглощение"
+    slots:
+      - 32
+    effect: "ABSORPTION"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Добавляет дополнительные"
+      - "&7золотые сердца защиты."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Нагрудник, Шлем"
+      - ""
+      - "%status_lore%"
+
+  effect-glowing:
+    material: "GLOWSTONE_DUST"
+    name: "&#FFFF00Свечение"
+    slots:
+      - 33
+    effect: "GLOWING"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Создаёт яркий светящийся"
+      - "&7контур вокруг персонажа."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Шлем, Нагрудник, Штаны, Ботинки"
+      - ""
+      - "%status_lore%"
+
+  effect-slow-falling:
+    material: "PHANTOM_MEMBRANE"
+    name: "&#FF8C00Плавное падение"
+    slots:
+      - 34
+    effect: "SLOW_FALLING"
+    action: "BUY_BUFF"
+    lore:
+      - "&7Позволяет плавно парить в воздухе"
+      - "&7и полностью убирает урон от падения."
+      - ""
+      - "&fТекущий уровень: &#FF8600%current_level%&7/&6%max_level%"
+      - "&fСлот брони: &#FF8600Ботинки"
+      - ""
+      - "%status_lore%"
